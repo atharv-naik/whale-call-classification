@@ -101,6 +101,9 @@ class CNNModel(object):
         self.activation = params['activation']
         self.optimizer = params['optimizer']
         return self
+    
+    def save(self, filename):
+        self.model.save(filename)
      
 
 def main():
@@ -133,7 +136,8 @@ def main():
     # save the best model
     print('Saving the best model...')
     best_model = grid_result.best_estimator_
-    dump(best_model, 'best_model.joblib')
+    dump(best_model, 'final_model.joblib')
+    best_model.save('final_model.h5')
 
 
 if __name__ == '__main__':
