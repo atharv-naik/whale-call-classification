@@ -2,7 +2,7 @@
 
 This project aims to classify Blue whale calls into A-calls or not based on a training dataset provided as a part of ISI DataFest Integration 2023. A-Calls are the most commonly heard vocalization of Blue whales and play an important role in their communication and behavior.
 
-The project uses a Convolutional Neural Network (CNN) to classify the Blue whale calls. The CNN model is trained on a training dataset consisting of 1671 samples and validated on a validation dataset consisting of 375 samples. The trained model is then tested on a separate testing dataset consisting of about 26000 samples.
+The project uses a Convolutional Neural Network (CNN) to classify the Blue whale calls. The CNN model is trained on a training dataset consisting of ~2600 samples and validated on a ~10% samples. The trained model was then tested on a separate testing dataset consisting of ~1000 samples.
 
 ## Installation
 
@@ -45,8 +45,8 @@ The model achieved an accuracy of 97% on the test set.
 
 ## Authors
 
-- Arghya Maity (am20ms038@iiserkol.ac.in)
 - Atharv Naik (naa20ms195@iiserkol.ac.in)
+- Arghya Maity (am20ms038@iiserkol.ac.in)
 - Somnath Roy (sr20ms063@iiserkol.ac.in)
 
 ## License
