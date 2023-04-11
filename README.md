@@ -45,9 +45,9 @@ The model achieved an accuracy of 97% on the test set.
 
 ## Authors
 
-- Atharv Naik (naa20ms195@iiserkol.ac.in)
-- Arghya Maity (am20ms038@iiserkol.ac.in)
-- Somnath Roy (sr20ms063@iiserkol.ac.in)
+- [@atharv-naik](https://www.github.com/atharv-naik)
+- [@Arg-10](https://www.github.com/Arg-10)
+- [@SomnathRoy123](https://www.github.com/SomnathRoy123)
 
 ## License
 
